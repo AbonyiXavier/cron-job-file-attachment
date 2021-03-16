@@ -1,0 +1,18 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "sending report to mail from cron job",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AbonyiXavier",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "node-cron": "^2.0.3",
+    "nodemailer": "^6.5.0"
+  }
+}
